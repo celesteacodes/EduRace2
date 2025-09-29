@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduRace - The Quiz Racing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>EduRace</h1>
+            <p>Race to the finish line by answering questions!</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="race-track">
+            <div id="car-sprite">🚗</div> <div id="finish-line">🏁</div>
+        </div>
+
+        <section id="quiz-area">
+            <h2>Current Score: <span id="score-display">0</span></h2>
+            <div id="quiz-box">
+                <p id="question-text">Click 'Start Race' to begin!</p>
+                <div id="options-container">
+                    </div>
+            </div>
+
+            <div id="controls">
+                <button id="start-button">Start Race!</button>
+                <p id="feedback-message"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 EduRace Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
